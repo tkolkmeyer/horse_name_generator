@@ -1,28 +1,29 @@
 function generator() {
+    let name = document.getElementById("name").value;
 
-    const input = require('readline-sync');
-
-    let info = input.question("What is your name? ");
-
-
-    // add single syllable common names and adjectives
-    let randomBimboFirst = ["disco", "ginger", "cherry"];
-
-    // add nouns and shit
-    let randomBimboLast = ["mama", "banana cake", "dipshit"];
-
-    let firstNameIndex = Math.floor(Math.random() * (randomBimboFirst.length));
+    console.log(name);
 
 
-    let lastNameIndex =
-        Math.floor(Math.random() * (randomBimboLast.length));
+    // // add single syllable common names and adjectives
+    // let randomBimboFirst = ["disco", "ginger", "cherry"];
 
-    let firstName = randomBimboFirst[firstNameIndex];
+    // // add nouns and shit
+    // let randomBimboLast = ["mama", "banana cake", "dipshit"];
 
-    let lastName = randomBimboLast[lastNameIndex];
+    // let firstNameIndex = Math.floor(Math.random() * (randomBimboFirst.length));
 
-    // what's your name?
-    // thats great . . . we're going to call you _____
 
-    return "Your bimbo name is: " + firstName + " " + lastName;
+    // let lastNameIndex =
+    //     Math.floor(Math.random() * (randomBimboLast.length));
+
+    // let firstName = randomBimboFirst[firstNameIndex];
+
+    // let lastName = randomBimboLast[lastNameIndex];
+
+    // // what's your name?
+    // // thats great . . . we're going to call you _____
+
+
+
+    // return "Your bimbo name is: " + firstName + " " + lastName;
 }
