@@ -103,12 +103,6 @@ title {
     box-shadow: 2px 2px 5px gray;
 }
 
-.sidenav-container h2 {
-    font-size: 2.4rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
-}
-
 .sidenav-content {
     position: relative;
     display: grid;
