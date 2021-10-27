@@ -62,7 +62,7 @@ title {
     margin: 1% 1% 1% 0%;
     padding-left: 1%;
     overflow: hidden;
-    background-color: #CBD4E9;
+    border: 3px solid #E9609B;
     border-radius: 25px;
     box-shadow: 2px 2px 5px gray;
 }
@@ -98,7 +98,7 @@ title {
     max-height: 100%;
     overflow-y: auto;
     overflow: scroll;
-    border: 3px solid black;
+    border: 3px solid #E9609B;
     border-radius: 25px;
     box-shadow: 2px 2px 5px gray;
 }
@@ -120,7 +120,7 @@ title {
 }
 
 .sidenav-content a:hover {
-    border-left-color: black;
+    border-left-color: #E9609B;
     margin: 0;
 }
 
@@ -132,7 +132,7 @@ title {
     border-radius: 25px;
     margin: 1%;
     padding: 1%;
-    background-color: #CBD4E9;
+    background-color: #E9609B;
     box-shadow: 2px 2px 5px gray;
 }
 
