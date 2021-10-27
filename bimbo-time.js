@@ -1,11 +1,8 @@
 import input from "readline-sync";
 
-function spinLogo(x) {
+const spinLogo = (x) => x.classList.add("spin");
 
-    x.classList.add("spin");
-}
-
-function whatsYourName() {
+const whatsYourName = () => {
     let name = input.question("What is your name?");
     return name;
 }
@@ -36,11 +33,6 @@ function whatsYourName() {
 //     return "Your bimbo name is: " + firstName + " " + lastName;
 // }
 
-function runProgram() {
-    whatsYourName()
-    spinLogo()
-}
 
-export const spinLogo = spinLogo;
-export const runProgram = runProgram;
-export const whatsYourName = whatsYourName;
+export { spinLogo };
+export { whatsYourName };
