@@ -1,4 +1,4 @@
-const input = require("readline-sync");
+import input from "readline-sync";
 
 function spinLogo(x) {
 
@@ -6,7 +6,7 @@ function spinLogo(x) {
 }
 
 function whatsYourName() {
-    let name = inpput.question("What is your name?");
+    let name = input.question("What is your name?");
     return name;
 }
 
@@ -41,8 +41,6 @@ function runProgram() {
 
 }
 
-module.exports = {
-    spinLogo: spinLogo,
-    runProgram: runProgram,
-    whatsYourName: whatsYourName
-}
+export const spinLogo = spinLogo;
+export const runProgram = runProgram;
+export const whatsYourName = whatsYourName;
