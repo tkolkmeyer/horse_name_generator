@@ -49,9 +49,10 @@ footer {
 
 .submit-button {
     margin: 16% 1% 1% 1%;
-    padding: 1%;
+    padding: 10%;
     border: 3px solid #E9609B;
-    border-radius: 25px;
+    background-color: FED5E7;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px gray;
 }
 
