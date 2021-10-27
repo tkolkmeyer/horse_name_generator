@@ -1,0 +1,22 @@
+{
+  "name": "bimbo_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "default.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkolkmeyer/bimbo_generator.git"
+  },
+  "author": "Taylor Kolkmeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkolkmeyer/bimbo_generator/issues"
+  },
+  "homepage": "https://github.com/tkolkmeyer/bimbo_generator#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
