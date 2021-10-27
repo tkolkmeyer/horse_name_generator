@@ -1,5 +1,5 @@
 // function generator() {
-
+let form = document.getElementById('name-form');
 form.addEventListener("submit-button", function(event) {
 
             let name = document.getElementById("name").value;
