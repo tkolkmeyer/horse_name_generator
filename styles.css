@@ -47,12 +47,14 @@ footer {
 
 .name-input {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .submit-button {
     margin: 16% 1% 1% 1%;
-    padding: 10%;
+    padding: 5%;
     border: 3px solid #E9609B;
     background-color: FED5E7;
     border-radius: 20px;
