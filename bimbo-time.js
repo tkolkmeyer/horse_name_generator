@@ -38,7 +38,7 @@ function whatsYourName() {
 
 function runProgram() {
     whatsYourName()
-
+    spinLogo()
 }
 
 export const spinLogo = spinLogo;

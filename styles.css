@@ -71,11 +71,11 @@ title {
     float: left;
     padding: .5%;
     margin: 1%;
-    border: 1px solid #CBD4E9;
+    border: 1px solid transparent;
 }
 
 .horizontal-navigation li:hover {
-    border-color: black;
+    border-color: #E9609B;
 }
 
 .horizontal-navigation a {
