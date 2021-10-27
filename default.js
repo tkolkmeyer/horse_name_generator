@@ -1,3 +1,3 @@
 import { spinLogo } from './bimbo-time.js';
 
-document.querySelector('logo').addEventListener('onmouseover', spinLogo(this));
+document.querySelector('logo').addEventListener('mouseover', spinLogo);
