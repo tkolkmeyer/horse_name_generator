@@ -1,4 +1,4 @@
-import input from "./package.json-sync";
+import input from "readline-sync";
 
 const spinLogo = (x) => x.classList.add("spin");
 
