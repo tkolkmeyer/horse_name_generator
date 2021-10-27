@@ -1,6 +1,13 @@
+const input = require("readline-sync");
+
 function spinLogo(x) {
 
     x.classList.add("spin");
+}
+
+function whatsYourName() {
+    let name = inpput.question("What is your name?");
+    return name;
 }
 
 // function generator() {
@@ -30,11 +37,12 @@ function spinLogo(x) {
 // }
 
 function runProgram() {
-
+    whatsYourName()
 
 }
 
 module.exports = {
     spinLogo: spinLogo,
     runProgram: runProgram,
+    whatsYourName: whatsYourName
 }
