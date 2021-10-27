@@ -1,11 +1,5 @@
-import input from "readline-sync";
-
 const spinLogo = (x) => x.classList.add("spin");
 
-const whatsYourName = () => {
-    let name = input.question("What is your name?");
-    return name;
-}
 
 // function generator() {
 
@@ -38,4 +32,3 @@ const whatsYourName = () => {
 
 
 export { spinLogo };
-export { whatsYourName };
