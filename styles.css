@@ -19,7 +19,7 @@ title {
     display: none;
 }
 
-.header {
+header {
     display: flex;
     justify-content: center;
 }
@@ -34,7 +34,7 @@ footer {
     justify-content: flex-start;
     width: 95%;
     color: #222;
-    margin: 5% 1% 1% 1%;
+    margin: 16% 1% 1% 1%;
     padding: 1%;
     border: 3px solid #E9609B;
     border-radius: 25px;
@@ -97,7 +97,7 @@ footer {
 .sidenav-container {
     position: fixed;
     padding: 1%;
-    margin: 0% 5% 0% 1%;
+    margin: 10% 5% 0% 1%;
     right: 1%;
     min-width: 22%;
     max-height: 100%;
@@ -255,14 +255,7 @@ li {
 
 /* Larger than mobile */
 
-@media (min-width: 400px) {
-    .sidenav-container {
-        margin: 10% 5% 0% 1%;
-    }
-    footer {
-        margin: 16% 1% 1% 1%;
-    }
-}
+@media (min-width: 400px) {}
 
 
 /* Larger than phablet (also point when grid becomes active) */
