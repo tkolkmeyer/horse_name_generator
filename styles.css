@@ -16,6 +16,10 @@ body {
     margin: 1% 1% 1% 2%;
 }
 
+title {
+    display: none;
+}
+
 .cta {
     display: flex;
     justify-content: center;
