@@ -42,6 +42,19 @@ footer {
     box-shadow: 2px 2px 5px gray;
 }
 
+.name-input {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    margin: 16% 1% 1% 1%;
+    padding: 1%;
+    border: 3px solid #E9609B;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
 
 /* Logo Animation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
