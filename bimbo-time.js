@@ -30,6 +30,9 @@ const whatsYourName = () => {
 
 //     let lastName = randomBimboLast[lastNameIndex];
 
+// what's your name?
+// thats great . . . we're going to call you _____
+
 //     return "Your bimbo name is: " + firstName + " " + lastName;
 // }
 
