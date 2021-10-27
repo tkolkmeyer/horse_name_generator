@@ -3,25 +3,28 @@ function spinLogo(x) {
     x.classList.add("spin");
 }
 
-const input = require('readline-sync');
+function generator() {
 
-let info = input.question("What is your name? ");
+    const input = require('readline-sync');
 
-
-// add single syllable common names and adjectives
-let randomBimboFirst = ["disco", "ginger", "cherry"];
-
-// add nouns and shit
-let randomBimboLast = ["mama", "banana cake", "dipshit"];
-
-let firstNameIndex = Math.floor(Math.random() * (randomBimboFirst.length));
+    let info = input.question("What is your name? ");
 
 
-let lastNameIndex =
-    Math.floor(Math.random() * (randomBimboLast.length));
+    // add single syllable common names and adjectives
+    let randomBimboFirst = ["disco", "ginger", "cherry"];
 
-let firstName = randomBimboFirst[firstNameIndex];
+    // add nouns and shit
+    let randomBimboLast = ["mama", "banana cake", "dipshit"];
 
-let lastName = randomBimboLast[lastNameIndex];
+    let firstNameIndex = Math.floor(Math.random() * (randomBimboFirst.length));
 
-console.log("Your bimbo name is: " + firstName + " " + lastName);
+
+    let lastNameIndex =
+        Math.floor(Math.random() * (randomBimboLast.length));
+
+    let firstName = randomBimboFirst[firstNameIndex];
+
+    let lastName = randomBimboLast[lastNameIndex];
+
+    return "Your bimbo name is: " + firstName + " " + lastName;
+}
