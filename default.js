@@ -1,3 +1,3 @@
-const generator = require('./bimbo-time.js');
+import { runProgram } from './bimbo-time.js';
 
-generator.runProgram();
+runProgram();
