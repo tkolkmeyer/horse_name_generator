@@ -4,7 +4,6 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -18,17 +17,6 @@ body {
 
 title {
     display: none;
-}
-
-.cta {
-    display: flex;
-    justify-content: center;
-    max-width: 25%;
-    margin: 2% 1% 1% 0%;
-    overflow: hidden;
-    background-color: #CBD4E9;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px gray;
 }
 
 .header {
@@ -134,10 +122,10 @@ title {
     justify-content: flex-start;
     width: 75%;
     color: #222;
-    border-radius: 25px;
     margin: 1%;
     padding: 1%;
-    background-color: #E9609B;
+    border: 3px solid #E9609B;
+    border-radius: 25px;
     box-shadow: 2px 2px 5px gray;
 }
 
@@ -267,13 +255,7 @@ li {
 
 /* Larger than mobile */
 
-@media (min-width: 400px) {
-    /* Makes the three columns stack on top of each other instead of next to each other */
-    .column.side,
-    .column.middle {
-        width: 100%;
-    }
-}
+@media (min-width: 400px) {}
 
 
 /* Larger than phablet (also point when grid becomes active) */
