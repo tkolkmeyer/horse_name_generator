@@ -31,22 +31,9 @@ title {
     box-shadow: 2px 2px 5px gray;
 }
 
-canvas {
-    display: block;
-}
-
-.sketch {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .header {
     display: flex;
-}
-
-.header h1 {
-    padding-right: 1%;
+    justify-content: center;
 }
 
 
