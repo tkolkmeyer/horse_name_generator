@@ -36,6 +36,11 @@ title {
     justify-content: center;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Logo Animation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
