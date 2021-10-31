@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
         let name = document.querySelector("input[name=name").value;
 
         if (name === "") {
-            alert("TELL");
+            alert("TELL US");
         };
 
         let firstName = [
