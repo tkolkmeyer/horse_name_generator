@@ -299,7 +299,11 @@ li {
 
 /* Larger than tablet */
 
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+    .sidenav-container {
+        margin: 12% 5% 1% 1%;
+    }
+}
 
 
 /* Larger than desktop */
