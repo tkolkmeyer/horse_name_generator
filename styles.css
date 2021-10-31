@@ -56,7 +56,8 @@ footer {
 
 .submit-button {
     display: flex;
-    padding: 3%;
+    padding: 1.5%;
+    margin: 0% 0% 0% 3%;
     border: 3px solid #E9609B;
     border-radius: 20px;
     box-shadow: 2px 2px 5px gray;
@@ -67,7 +68,7 @@ footer {
 
 .name-input {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
