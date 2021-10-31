@@ -166,9 +166,9 @@ window.addEventListener("load", function() {
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
         let lastNameIndex = Math.floor(Math.random() * lastName.length);
-        let firstName = firstName[firstNameIndex];
-        let lastName = lastName[lastNameIndex];
-        let bimboName = firstName + lastName;
+        let firstBimboName = firstName[firstNameIndex];
+        let lastBimboName = lastName[lastNameIndex];
+        let bimboName = firstBimboName + lastBimboName;
 
         document.getElementById('hello-you').innerHTML = `Okay ${name}! That's great . . . We're gonna call you ${bimboName}!`;
 
