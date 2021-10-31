@@ -43,14 +43,20 @@ footer {
     box-shadow: 2px 2px 5px gray;
 }
 
-.name-input {
+.hello-you {
     display: flex;
     justify-content: center;
+    margin: 5% 1% 1% 1%;
+    white-space: nowrap;
+}
+
+.query {
+    display: inline-block;
 }
 
 .submit-button {
     display: flex;
-    padding: 5%;
+    padding: 3%;
     border: 3px solid #E9609B;
     border-radius: 20px;
     box-shadow: 2px 2px 5px gray;
@@ -59,11 +65,9 @@ footer {
     font-size: large;
 }
 
-.hello-you {
+.name-input {
     display: flex;
     justify-content: center;
-    margin: 5% 1% 1% 1%;
-    white-space: nowrap;
 }
 
 
