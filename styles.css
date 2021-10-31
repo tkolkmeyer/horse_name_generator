@@ -63,6 +63,7 @@ footer {
     box-shadow: 2px 2px 5px gray;
     background-color: white;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
     font-size: large;
 }
 
@@ -144,11 +145,9 @@ footer {
 
 .sidenav-content {
     position: relative;
+    font-size: 1.5em;
     display: grid;
-    font-size: 1.0em;
-    /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1;
-    font-weight: 400;
     color: #222;
 }
 
