@@ -161,7 +161,6 @@ window.addEventListener("load", function() {
             "the Primrose",
             "Poppins",
             "Au Fait",
-            "the Bumblebee",
             "Middeke",
             "Julep",
             "High Ball",
