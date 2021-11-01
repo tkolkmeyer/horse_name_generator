@@ -162,6 +162,10 @@ window.addEventListener("load", function() {
             "Poppins",
             "Au Fait",
             "the Bumblebee",
+            "Middeke",
+            "Julep",
+            "High Ball",
+            "Christmas"
         ];
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
@@ -171,6 +175,7 @@ window.addEventListener("load", function() {
         let bimboName = firstBimboName + " " + lastBimboName;
 
         document.getElementById('hello-you').innerHTML = `Okay ${name}! That's great . . . We're gonna call you ${bimboName}`;
+
 
         event.preventDefault();
 
