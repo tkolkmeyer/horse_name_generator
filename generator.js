@@ -92,7 +92,6 @@ window.addEventListener("load", function() {
             "Glossy"
         ];
         let lastName = [
-            "the Dipshit",
             "the Essence",
             "the Jay",
             "the Sauce",
@@ -107,7 +106,6 @@ window.addEventListener("load", function() {
             "the Moon",
             "Leopard",
             "the Fox",
-            "Chicken Shit",
             "the Chicken",
             "Lion",
             "George",
