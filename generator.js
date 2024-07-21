@@ -154,7 +154,9 @@ window.addEventListener("load", function() {
             "Middeke",
             "Julep",
             "High Ball",
-            "Christmas"
+            "Christmas",
+            "Frontana",
+            "Drossel"
         ];
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
