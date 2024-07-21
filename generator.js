@@ -3,12 +3,6 @@ window.addEventListener("load", function() {
     let form = document.querySelector("form");
     form.addEventListener("submit", function(event) {
 
-        let name = document.querySelector("input[name=name").value;
-
-        if (name === "") {
-            alert("TELL US");
-        };
-
         let firstName = [
             "Silky",
             "Hell",
@@ -169,7 +163,7 @@ window.addEventListener("load", function() {
         let lastBimboName = lastName[lastNameIndex];
         let bimboName = firstBimboName + " " + lastBimboName;
 
-        document.getElementById('hello-you').innerHTML = `Okay ${name}! That's great . . . We're gonna call you ${bimboName}`;
+        document.getElementById('hello-you').innerHTML = `Your horse's name is: ${bimboName}`;
 
 
         event.preventDefault();
