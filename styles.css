@@ -63,7 +63,7 @@ footer {
 
 .submit-button {
     display: flex;
-    padding: .5%;
+    padding: 20px;
     margin: 0% 0% 0% 3%;
     border: 3px solid #222;
     border-radius: 20px;
@@ -265,7 +265,11 @@ li {
 
 /* Larger than phablet (also point when grid becomes active) */
 
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    html {
+        font-size: large;
+    }
+}
 
 
 /* Larger than tablet */
