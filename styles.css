@@ -266,9 +266,6 @@ li {
 /* Larger than phablet (also point when grid becomes active) */
 
 @media (min-width: 550px) {
-    html {
-        font-size: large;
-    }
 }
 
 
