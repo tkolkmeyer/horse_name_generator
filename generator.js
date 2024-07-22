@@ -83,7 +83,16 @@ window.addEventListener("load", function() {
             "Indigo",
             "Sorrel",
             "Sloppy",
-            "Glossy"
+            "Glossy",
+            "Dongo",
+            "Virginia",
+            "Uh oh",
+            "Bikini Martini",
+            "Smile Like",
+            "One Way to",
+            "Lonesome",
+            "Mac"
+
         ];
         let lastName = [
             "the Essence",
@@ -108,7 +117,6 @@ window.addEventListener("load", function() {
             "the Gossip",
             "Chugs",
             "Kay",
-            "Dips Hit",
             "the Dips",
             "Mustard",
             "the Phoenix",
@@ -156,7 +164,13 @@ window.addEventListener("load", function() {
             "High Ball",
             "Christmas",
             "Frontana",
-            "Drossel"
+            "Drossel",
+            "Supertrix",
+            "Goldicat",
+            "Nation",
+            "Pandowdy",
+            "at Midnight",
+            "Your Valentine"
         ];
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
