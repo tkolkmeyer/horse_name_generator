@@ -89,9 +89,13 @@ window.addEventListener("load", function() {
             "Indigo",
             "Sorrel",
             "Sloppy",
-            "Glossy"
+            "Glossy",
+            "Captain",
+            "Bingo"
         ];
         let lastName = [
+            "Pandemonium",
+            "the Noodle",
             "the Essence",
             "the Jay",
             "the Sauce",
@@ -114,8 +118,6 @@ window.addEventListener("load", function() {
             "the Gossip",
             "Chugs",
             "Kay",
-            "Dips Hit",
-            "the Dips",
             "Mustard",
             "the Phoenix",
             "Ritz",
@@ -134,14 +136,12 @@ window.addEventListener("load", function() {
             "Evangalista",
             "Frank",
             "Joe",
-            "the Pillow Queen",
             "Willow",
             "Hamburger",
             "Balloon",
             "Pancake",
             "Muffin",
             "the Corndog",
-            "'Nail Painting Emoji' Grant",
             "Hotdog",
             "Sorbet",
             "Dango",
@@ -157,10 +157,18 @@ window.addEventListener("load", function() {
             "the Primrose",
             "Poppins",
             "Au Fait",
-            "Middeke",
             "Julep",
             "High Ball",
-            "Christmas"
+            "Christmas",
+            "Maverick",
+            "Duke",
+            "Meatball",
+            "Cornbread",
+            "Gravy",
+            "Dongo",
+            "'Crying Emoji' Jones",
+            "'Sunglasses Emoji' Davis",
+            "'Nervous Sweating Emoji' Kelly"
         ];
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
