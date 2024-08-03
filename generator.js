@@ -3,12 +3,6 @@ window.addEventListener("load", function() {
     let form = document.querySelector("form");
     form.addEventListener("submit", function(event) {
 
-        let name = document.querySelector("input[name=name").value;
-
-        if (name === "") {
-            alert("TELL US");
-        };
-
         let firstName = [
             "Silky",
             "Hell",
@@ -90,8 +84,15 @@ window.addEventListener("load", function() {
             "Sorrel",
             "Sloppy",
             "Glossy",
-            "Captain",
-            "Bingo"
+            "Dongo",
+            "Virginia",
+            "Uh oh",
+            "Bikini Martini",
+            "Smile Like",
+            "One Way to",
+            "Lonesome",
+            "Mac"
+
         ];
         let lastName = [
             "Pandemonium",
@@ -118,6 +119,7 @@ window.addEventListener("load", function() {
             "the Gossip",
             "Chugs",
             "Kay",
+            "the Dips",
             "Mustard",
             "the Phoenix",
             "Ritz",
@@ -160,15 +162,14 @@ window.addEventListener("load", function() {
             "Julep",
             "High Ball",
             "Christmas",
-            "Maverick",
-            "Duke",
-            "Meatball",
-            "Cornbread",
-            "Gravy",
-            "Dongo",
-            "'Crying Emoji' Jones",
-            "'Sunglasses Emoji' Davis",
-            "'Nervous Sweating Emoji' Kelly"
+            "Frontana",
+            "Drossel",
+            "Supertrix",
+            "Goldicat",
+            "Nation",
+            "Pandowdy",
+            "at Midnight",
+            "Your Valentine"
         ];
 
         let firstNameIndex = Math.floor(Math.random() * firstName.length);
@@ -177,7 +178,7 @@ window.addEventListener("load", function() {
         let lastBimboName = lastName[lastNameIndex];
         let bimboName = firstBimboName + " " + lastBimboName;
 
-        document.getElementById('hello-you').innerHTML = `Okay ${name}! That's great . . . We're gonna call you ${bimboName}`;
+        document.getElementById('hello-you').innerHTML = `Your horse's name is: ${bimboName}`;
 
 
         event.preventDefault();
