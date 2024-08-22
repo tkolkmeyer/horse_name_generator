@@ -82,7 +82,6 @@ window.addEventListener("load", function() {
             "Crying",
             "Indigo",
             "Sorrel",
-            "Sloppy",
             "Glossy",
             "Dongo",
             "Virginia",
