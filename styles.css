@@ -73,6 +73,10 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
+.submit-button:active {
+  background-color: #DCC7D0;
+}
+
 .hello-you {
     display: flex;
     justify-content: center;
