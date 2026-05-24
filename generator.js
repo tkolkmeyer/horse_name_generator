@@ -260,7 +260,7 @@ window.addEventListener("load", function() {
         const lastHorseName = lastName[lastNameIndex];
         const horseName = `${firstHorseName} ${lastHorseName}`;
 
-        document.getElementById('hello-you').innerHTML = `Your horse's name is: ${horseName}`;
+        document.getElementById('hello-you').innerHTML = horseName;
     });
 
 });
