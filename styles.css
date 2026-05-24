@@ -60,28 +60,11 @@ header h1 span {
     word-break: break-word;
 }
 
-footer {
-    position: fixed;
-    display: flex;
-    justify-content: flex-start;
-    bottom: 50px;
-    width: 93%;
-    color: #222;
-    padding: 1%;
-    border: 3px solid #222;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px gray;
-}
-
 .home-page-title {
     display: flex;
     justify-content: center;
     margin: 5% 0 0 0;
     font-size: larger;
-}
-
-.query {
-    display: inline-block;
 }
 
 .submit-button {
@@ -211,80 +194,6 @@ main {
         transform: rotate(360deg);
     }
 }
-
-
-/* Horizontal Navigation
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.horizontal-navigation {
-    font-size: inherit;
-}
-
-.horizontal-navigation ul {
-    list-style-type: none;
-    margin: 1% 1% 1% 0%;
-    padding-left: 1%;
-    overflow: hidden;
-    border: 3px solid #E9609B;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px gray;
-}
-
-.horizontal-navigation li {
-    float: left;
-    padding: .5%;
-    margin: 1%;
-    border: 1px solid transparent;
-}
-
-.horizontal-navigation li:hover {
-    border-color: #E9609B;
-}
-
-.horizontal-navigation a {
-    display: table-row;
-    color: #222;
-    text-align: center;
-    text-decoration: none;
-}
-
-
-/* Side Navigation
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.sidenav-container {
-    position: fixed;
-    padding: 1%;
-    margin: 20% 5% 0% 1%;
-    right: 1%;
-    min-width: 22%;
-    max-height: 100%;
-    overflow-y: auto;
-    overflow: scroll;
-    border: 3px solid #E9609B;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px gray;
-}
-
-.sidenav-content {
-    position: relative;
-    font-size: medium;
-    display: grid;
-    line-height: 1;
-    color: #222;
-}
-
-.sidenav-content a {
-    float: left;
-    padding: 1%;
-    border-left: 2px solid transparent;
-}
-
-.sidenav-content a:hover {
-    border-left-color: #E9609B;
-    margin: 0;
-}
-
 
 /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
