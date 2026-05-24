@@ -1,21 +1,13 @@
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@font-face {
-    font-family: 'DeadToast Demo';
-    src: url('fonts/Deadtoast%20Demo.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 .name.display.space {
     display: flex;
 }
 
 html {
     scroll-behavior: smooth;
-    font-family: 'DeadToast Demo', 'Poppins', sans-serif;
+    font-family: 'Rye', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -80,7 +72,7 @@ footer {
     box-shadow: 2px 2px 5px gray;
     background-color: white;
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
+    font-family: inherit;
 }
 
 .submit-button:active {
