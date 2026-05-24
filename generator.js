@@ -91,7 +91,7 @@ window.addEventListener("load", function() {
         "Lenny",
         "Reverend",
         "Flaco",
-        "Rip Van Ornery",
+        "Rip Van Jinkle",
         "Rattlesnake",
         "Ol’",
         "Copperhead",
