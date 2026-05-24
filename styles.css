@@ -142,6 +142,9 @@ main {
     max-width: 220px;
     font-size: 0.95rem;
     padding: 10px 16px;
+    color: #000;
+    border: 3px solid #222;
+    background-color: #fff;
 }
 
 .submit-button img {
