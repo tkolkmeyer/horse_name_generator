@@ -3,9 +3,10 @@
 
 @font-face {
     font-family: 'DeadToast Demo';
-    src: url('fonts/deadtoast demo.ttf') format('truetype');
+    src: url('fonts/Deadtoast%20Demo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .name.display.space {
