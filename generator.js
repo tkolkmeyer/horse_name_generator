@@ -198,11 +198,11 @@ window.addEventListener("load", function() {
         const firstNameIndex = getNextIndex(firstNamePool, firstName.length);
         const lastNameIndex = getNextIndex(lastNamePool, lastName.length);
 
-        const firstBimboName = firstName[firstNameIndex];
-        const lastBimboName = lastName[lastNameIndex];
-        const bimboName = `${firstBimboName} ${lastBimboName}`;
+        const firstHorseName = firstName[firstNameIndex];
+        const lastHorseName = lastName[lastNameIndex];
+        const horseName = `${firstHorseName} ${lastHorseName}`;
 
-        document.getElementById('hello-you').innerHTML = `Your horse's name is: ${bimboName}`;
+        document.getElementById('hello-you').innerHTML = `Your horse's name is: ${horseName}`;
     });
 
 });
