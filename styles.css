@@ -1,20 +1,6 @@
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.name.display.space {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 1.5rem 1rem 1rem;
-    padding: 0 1rem;
-    white-space: normal;
-    text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    word-break: break-word;
-}
-
 html {
     scroll-behavior: smooth;
     font-family: 'Rye', sans-serif;
@@ -58,6 +44,20 @@ header h1 span {
 .logo {
     display: flex;
     justify-content: center;
+}
+
+.name.display.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem 1rem 1rem;
+    padding: 0 1rem;
+    white-space: normal;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    word-break: break-word;
 }
 
 footer {
