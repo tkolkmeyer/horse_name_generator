@@ -38,6 +38,7 @@ header h1 {
     margin: 0;
     text-align: left;
     line-height: 1.1;
+    font-size: 2rem;
 }
 
 header h1 span {
@@ -138,9 +139,9 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 340px;
-    font-size: 1.3rem;
-    padding: 18px 28px;
+    max-width: 260px;
+    font-size: 1rem;
+    padding: 12px 20px;
 }
 
 .submit-button img {
