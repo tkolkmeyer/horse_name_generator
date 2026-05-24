@@ -101,7 +101,19 @@ window.addEventListener("load", function() {
         "Scarlett",
         "Laramie",
         "Cimarron",
-        "Amarillo"
+        "Amarillo",
+        "Cochise",
+        "Tornado",
+        "Silver",
+        "Tucson",
+        "Sedona",
+        "Cry Like",
+        "Built Like",
+        "Notorious",
+        "Otherwise Known as",
+        "Also Known As",
+        "Formerly",
+        "Once Called"
     ];
 
     const lastName = [
@@ -185,7 +197,30 @@ window.addEventListener("load", function() {
         "Redemption",
         "Marston",
         "Midnight",
-        "Clemens"
+        "Clemens",
+        "Citation",
+        "Whirlaway",
+        "Affirmed",
+        "McQueen",
+        "Maverick",
+        "Cassidy",
+        "Dalton",
+        "at Dawn",
+        "at Sundown",
+        "in Disguise",
+        "on the Loose",
+        "Owes Me Money",
+        "Took My Horse",
+        "Left Town Fast",
+        "Never Came Back",
+        "Was Never Here",
+        "Didn’t Do It",
+        "the Sequel",
+        "Part Two",
+        "Returns",
+        "Stole My Hat",
+        "Strikes Back",
+        "Rides Again"
     ];
 
     let firstNamePool = [];
