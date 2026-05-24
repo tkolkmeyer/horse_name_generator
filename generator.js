@@ -87,7 +87,21 @@ window.addEventListener("load", function() {
         "Smile Like",
         "One Way to",
         "Lonesome",
-        "Mac"
+        "Mac",
+        "Lenny",
+        "Reverend",
+        "Flaco",
+        "Rip Van Ornery",
+        "Rattlesnake",
+        "Ol’",
+        "Copperhead",
+        "Desperado",
+        "Tumbleweed",
+        "Cannonball",
+        "Scarlett",
+        "Laramie",
+        "Cimarron",
+        "Amarillo"
     ];
 
     const lastName = [
@@ -162,7 +176,18 @@ window.addEventListener("load", function() {
         "Nation",
         "Pandowdy",
         "at Midnight",
-        "Your Valentine"
+        "Your Valentine",
+        "Jackson",
+        "Calloway",
+        "Van Der Linde",
+        "Stillwater",
+        "Annesburg",
+        "Rhodes",
+        "the Kid",
+        "Redemption",
+        "Marston",
+        "Midnight",
+        "Clemens"
     ];
 
     let firstNamePool = [];
