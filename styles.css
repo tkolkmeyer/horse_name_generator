@@ -3,6 +3,16 @@
 
 .name.display.space {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem 1rem 1rem;
+    padding: 0 1rem;
+    white-space: normal;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    word-break: break-word;
 }
 
 html {
@@ -88,20 +98,6 @@ footer {
 
 .submit-button:active {
   background-color: #DCC7D0;
-}
-
-.name.display.space {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 1.5rem 1rem 1rem;
-    padding: 0 1rem;
-    white-space: normal;
-    text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    word-break: break-word;
 }
 
 img {
