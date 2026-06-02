@@ -112,7 +112,9 @@ window.addEventListener("load", function() {
         "Otherwise Known as",
         "Also Known As",
         "Formerly",
-        "Once Called"
+        "Once Called",
+        "Chicken Dog",
+        "Hope Child"
     ];
 
     const lastName = [
