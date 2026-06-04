@@ -114,7 +114,8 @@ window.addEventListener("load", function() {
         "Formerly",
         "Once Called",
         "Chicken Dog",
-        "Hope Child"
+        "Hope Child",
+        "Sivka"
     ];
 
     const lastName = [
@@ -221,7 +222,9 @@ window.addEventListener("load", function() {
         "Returns",
         "Stole My Hat",
         "Strikes Back",
-        "Rides Again"
+        "Rides Again",
+        "the Unbroken",
+        "Kilgore"
     ];
 
     let firstNamePool = [];
